@@ -1,1 +1,1 @@
-
+This is a new Russian system without a graphical interface, but in the future the graphical interface may appear with the release of update 2.0. You can customize this system by knowing the programming language "python". ATTENTION THIS SYSTEM IS INTENDED FOR USE IN CMD WINDOWS, MACOS, LINUX, AND ONLY WITH PYTHON INSTALLED.

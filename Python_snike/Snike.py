@@ -2,10 +2,8 @@ import pygame
 import time
 import random
 
-# Инициализация Pygame
 pygame.init()
 
-# Определение цветов
 white = (255, 255, 255)
 yellow = (255, 255, 102)
 black = (0, 0, 0)
@@ -13,17 +11,14 @@ red = (213, 50, 80)
 green = (0, 255, 0)
 blue = (50, 153, 213)
 
-# Установка размеров окна
 width = 600
 height = 400
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption('Змейка')
 
-# Настройки игры
 snake_block = 10
 snake_speed = 15
 
-# Шрифт для отображения счета
 font_style = pygame.font.SysFont("bahnschrift", 25)
 score_font = pygame.font.SysFont("comicsansms", 35)
 
@@ -35,7 +30,7 @@ def message(msg, color):
     mesg = font_style.render(msg, True, color)
     screen.blit(mesg, [width / 6, height / 3])
 
-def gameLoop():  # Основная функция игры
+def gameLoop():  
     game_over = False
     game_close = False
 
